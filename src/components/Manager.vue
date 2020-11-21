@@ -2,7 +2,7 @@
     <div class="media-library">
         <div class="media-library__inner">
             <header class="media-library__header">
-                Media Library
+                {{ title }}
 
                 <span class="media-library__close" @click="close">
                     <app-icon icon="times" />
@@ -215,6 +215,11 @@
                 type: Array,
                 required: false,
                 default: () => ([])
+            },
+            title: {
+                type: String,
+                required: false
+                default: 'Media Library'
             }
         },
 
