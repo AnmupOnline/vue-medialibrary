@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                             <div v-if="store[type].data.length == 0" class="media-library__error media-library__error--sml">
-                                <span class="media-library__error__ttl">Not a great start!</span>
+                                <span class="media-library__error__ttl">We all start from Zer0!</span>
                                 <p class="media-library__error__msg">You don't have any media yet... Upload some media above to get started!</p>
                                 <app-svg-media />
                             </div>
